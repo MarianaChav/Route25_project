@@ -1,13 +1,15 @@
 ----------------------------------------------------------------------------------
- README file for Quality of Web Services (QWS) Dataset ver 2.0: 
+ README file for Quality of Web Services (QWS) Dataset ver 1.0: 
  Last updated: 2019/11/01
 ----------------------------------------------------------------------------------
  Thank you for your interest in downloading the Quality of Web Service (QWS) 
  Dataset. This dataset includes quality, ranking, and classification metrics 
- for 2507 real Web services. The information contained on the attached zip 
+ for 365 real Web services. The information contained on the attached zip 
  is believed to be accurate. Some of the services  may have changed since our 
- last crawl for creating this dataset. For description of how these attributes 
- were measured, please go to: https://qwsdata.github.io
+ last crawl for creating this dataset. The dataset contains a ranking field
+ based on our Web Service Relevancy Function (WsRF) and a classification 
+ field for classifying web services. This dataset version can be used for 
+ classification / clustering / regression. 
 
 
 ----------------------------------------------------------------------------------
@@ -16,7 +18,7 @@ FILES
  The files associated with this dataset have all been zipped to conserve disk 
  space and download. The dataset files include:
 
-  * QWS2.txt (the dataset file)
+  * QWS1.txt (the dataset file)
   * Readme.txt (instructions, this file) 
   
   The QWS data file is attached. 
@@ -62,7 +64,7 @@ LICENSE AGREEMENT
 
  Copyright (c) 2007-present QWS Dataset, University of Guelph
 
- https://qwsdata.github.io/qws/
+ https://qwsdata.github.io
 
 
 ----------------------------------------------------------------------------------
